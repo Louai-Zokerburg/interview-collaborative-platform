@@ -54,7 +54,7 @@ export function Cursors({ yProvider }: Props) {
     }
 
     return { __html: cursorStyles };
-  }, [awarenessUsers]);
+  }, [awarenessUsers, userInfo]);
 
   return <style dangerouslySetInnerHTML={styleSheet} />;
 }
